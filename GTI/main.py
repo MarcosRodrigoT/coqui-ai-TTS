@@ -4,7 +4,7 @@ from TTS.api import TTS
 
 # Parameters for speech generation
 USER = "mrt"
-USER_VOICE = f"./GTI/users/{USER}.wav"
+USER_VOICE = f"./GTI/voices/{USER}.wav"
 OUTPUT_PATH = f"./GTI/outputs/{USER}.wav"
 text = "Hola, somos el grupo de tratamiento de imágenes. Nos dedicamos a muchos temas distintos, como son las redes neuronales y la visión artificial."
 
